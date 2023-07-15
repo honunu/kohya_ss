@@ -12,7 +12,7 @@ services:
     tty: true
     ipc: host
     environment:
-      CLI_ARGS: ""
+      CLI_ARGS: "--share"
       SAFETENSORS_FAST_GPU: 1
       DISPLAY: $DISPLAY
     tmpfs:
